@@ -7,7 +7,7 @@ public class Roots {
         double a=sc.nextDouble();
         double b=sc.nextDouble();
         double c=sc.nextDouble();
-        double D=b*b-4*a*c;
+        double D = b*b-4*a*c;
         if(D<0){
             System.out.println("error");
         }else if(D==0){
@@ -16,8 +16,8 @@ public class Roots {
         }else{
             double x1=(-b+Math.sqrt(D))/(2*a);
             double x2=(-b-Math.sqrt(D))/(2*a);
-            System.out.println("X1: "+x1);
-            System.out.println("X2: "+x2);
+            System.out.println("X1: " + x1);
+            System.out.println("X2: " + x2);
         }
 
     }
