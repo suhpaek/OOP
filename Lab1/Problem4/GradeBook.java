@@ -142,7 +142,4 @@ public class GradeBook {
         }
     }
 
-    public String toString() {
-        return "GradeBook{course=" + course + ", students=" + students.size() + "}";
-    }
 }

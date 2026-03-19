@@ -1,0 +1,7 @@
+
+1)A class can have filled constructors and fully implemented methods and it is used to create objects.
+An interface finds a contract of methods that a class must implement
+
+2) Yes, interface can have fields but they are automatically public static final. That means they're constant.
+
+3) Yes a class can implement multiple interfaces. This is useful because it allows one class to have multiple behaviours and support multiple inheritance of type.

@@ -47,7 +47,7 @@ public class Time {
         return String.format("%02d:%02d:%02d %s", h, minute, second, amPm);
     }
 
-    public void add(Time other) {
+    public void add(Time other){
         this.second += other.second;
         this.minute += other.minute;
         this.hour += other.hour;

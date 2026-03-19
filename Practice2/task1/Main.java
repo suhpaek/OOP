@@ -12,6 +12,7 @@ public class Main {
         System.out.println(s.getId());
 
         s.incrementYear();
+        System.out.println(s.incrementYear());
 
     }
 }

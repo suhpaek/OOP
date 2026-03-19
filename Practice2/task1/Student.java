@@ -19,8 +19,9 @@ public class Student {
         return id;
     }
 
-    public void incrementYear(){
+    public int incrementYear(){
         yearOfStudy++;
+        return yearOfStudy;
     }
 
 }
