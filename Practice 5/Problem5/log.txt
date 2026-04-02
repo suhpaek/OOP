@@ -1,0 +1,6 @@
+Expression: 5.3+
+Error: NoSuchElementException - null
+Expression: 5.3+a
+Error: NumberFormatException - For input string: "a"
+Expression: 4^2
+Error: UnsupportedOperationException - Unsupported operator: ^
